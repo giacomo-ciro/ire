@@ -38,12 +38,6 @@ Grab the latest build from the [**Releases**](https://github.com/ire-research/ir
 | Linux | `.AppImage` / `.deb` / `.rpm` |
 | Windows | _coming soon_ |
 
-> **Note:** The builds are not yet code-signed. On **macOS**, try one of the following:
->
-> 1. Right-click the app → **Open**.
-> 2. Go to **System Settings → Privacy & Security**, scroll down to the Security section where the app appears as blocked, and click **Open Anyway**.
-> 3. Remove the quarantine flag from the terminal: `xattr -cr /Applications/ire.app`
-
 You'll also need [Claude Code](https://docs.anthropic.com/en/docs/claude-code) or [Codex](https://github.com/openai/codex) installed and authenticated.
 
 To build from source instead (Node.js 18+, Rust 1.70+, Git):
